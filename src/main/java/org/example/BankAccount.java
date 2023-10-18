@@ -28,6 +28,9 @@ public class BankAccount {
         }
         balance -= withdraw;
     }
+    public int getAccountNumber(){
+        return accountNumber;
+    }
     public double getBalance(){
         return balance;
     }
